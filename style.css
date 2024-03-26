@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Pricing Styles */
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.price {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.price span {
+    font-size: 0.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: none; /* Hide feature list by default */
+}
+
+/* Show feature list when expanded */
+.expanded ul {
+    display: block;
+}
+
+li {
+    padding: 5px 0;
+}
+
+/* Optional Toggle Button Styles */
+.toggle {
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.toggle:hover {
+    background-color: #0056b3;
+}
